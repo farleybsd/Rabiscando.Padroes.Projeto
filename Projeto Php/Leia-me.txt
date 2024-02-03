@@ -1,0 +1,9 @@
+Para executar o projeto, navegue até a pasta onde extraiu os códigos baixados e execute os comando abaixo:
+
+Comando para subir o ambiente de desenvolvimento. (Cria e inicia os containers)
+
+​docker-compose up --build -d
+
+Comando para parar e remover os containers.
+
+docker-compose down
