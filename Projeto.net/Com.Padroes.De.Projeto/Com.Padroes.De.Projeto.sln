@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Stra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Padroes.De.Projeto.Template Method", "Src\Com.Padroes.De.Projeto.Template Method\Com.Padroes.De.Projeto.Template Method.csproj", "{6C3E0F84-74F1-4654-9844-9339B7C26B5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Padroes.De.Projeto.Observer", "Src\Com.Padroes.De.Projeto.Observer\Com.Padroes.De.Projeto.Observer.csproj", "{0F60C515-E8DD-4636-8469-6DE6CE3C1C79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6C3E0F84-74F1-4654-9844-9339B7C26B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C3E0F84-74F1-4654-9844-9339B7C26B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C3E0F84-74F1-4654-9844-9339B7C26B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F60C515-E8DD-4636-8469-6DE6CE3C1C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F60C515-E8DD-4636-8469-6DE6CE3C1C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F60C515-E8DD-4636-8469-6DE6CE3C1C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F60C515-E8DD-4636-8469-6DE6CE3C1C79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
