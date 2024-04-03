@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Temp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Observer", "Src\Com.Padroes.De.Projeto.Observer\Com.Padroes.De.Projeto.Observer.csproj", "{0F60C515-E8DD-4636-8469-6DE6CE3C1C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Src\State\State.csproj", "{0F7D099D-8FD3-4CB2-9192-3B774BE5FE68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "Src\State\State.csproj", "{0F7D099D-8FD3-4CB2-9192-3B774BE5FE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Src\Adapter\Adapter.csproj", "{2102B4A7-9BF9-496C-AC64-764CC80B919D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0F7D099D-8FD3-4CB2-9192-3B774BE5FE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F7D099D-8FD3-4CB2-9192-3B774BE5FE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F7D099D-8FD3-4CB2-9192-3B774BE5FE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2102B4A7-9BF9-496C-AC64-764CC80B919D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2102B4A7-9BF9-496C-AC64-764CC80B919D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2102B4A7-9BF9-496C-AC64-764CC80B919D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2102B4A7-9BF9-496C-AC64-764CC80B919D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
