@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Obse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "Src\State\State.csproj", "{0F7D099D-8FD3-4CB2-9192-3B774BE5FE68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Src\Adapter\Adapter.csproj", "{2102B4A7-9BF9-496C-AC64-764CC80B919D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Src\Adapter\Adapter.csproj", "{2102B4A7-9BF9-496C-AC64-764CC80B919D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.Padroes.De.Projeto.Decorator.Pattern", "Src\com.Padroes.De.Projeto.Decorator.Pattern\com.Padroes.De.Projeto.Decorator.Pattern.csproj", "{5FF744AA-6E31-4DE0-8A4A-93BE1B6A0E4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2102B4A7-9BF9-496C-AC64-764CC80B919D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2102B4A7-9BF9-496C-AC64-764CC80B919D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2102B4A7-9BF9-496C-AC64-764CC80B919D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF744AA-6E31-4DE0-8A4A-93BE1B6A0E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF744AA-6E31-4DE0-8A4A-93BE1B6A0E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF744AA-6E31-4DE0-8A4A-93BE1B6A0E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF744AA-6E31-4DE0-8A4A-93BE1B6A0E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
