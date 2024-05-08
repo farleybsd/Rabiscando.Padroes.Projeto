@@ -13,19 +13,14 @@ var produto3 = new Produto("Calça Jeans", "Calça Jeans Masculina", (float)119.
 // ==== Até aqui apenas criamos os objetos básicos que uma venda precisa. ====
 // ==== Agora vamos ao processo de venda propriamente dito. ====
 //Criação do Pedido.
-var pedido = new Pedido(consumidor);
+
+// ==== Até aqui apenas criamos os objetos básicos que uma venda precisa. ====
+// ==== Agora vamos ao processo de venda propriamente dito. ====
+//Criação da classe VendaFacade.
+var vendaFacade = new VendaFacade(consumidor);
 //Adição dos produtos ao pedido.
-pedido.AddProduto(produto1);
-pedido.AddProduto(produto2);
-pedido.AddProduto(produto3);
+vendaFacade.addProduto(produto1);
+vendaFacade.addProduto(produto2);
+vendaFacade.addProduto(produto3);
 //Pagamento com boleto.
-var pagamento = new PagamentoBoleto(pedido);
-var email = new EmailPedido(pedido);
-if (pagamento.realizarPagamento())
-{
-    email.enviarEmail("Pagamento realizado com sucesso via boleto");
-}
-else
-{
-    email.enviarEmail("Falha no pagamento do boleto");
-}
+vendaFacade.pedidoBoleto();

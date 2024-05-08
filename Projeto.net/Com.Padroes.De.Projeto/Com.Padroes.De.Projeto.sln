@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Padr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.HookPattern", "Src\Com.Padroes.De.Projeto.HookPattern\Com.Padroes.De.Projeto.HookPattern.csproj", "{4007D849-83CD-4A39-A080-790D80270725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Padroes.De.Projeto.FactoryMethod", "Src\Com.Padroes.De.Projeto.FactoryMethod\Com.Padroes.De.Projeto.FactoryMethod.csproj", "{7B6FF907-B88B-4908-9A40-4E8E2BF60F5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.FactoryMethod", "Src\Com.Padroes.De.Projeto.FactoryMethod\Com.Padroes.De.Projeto.FactoryMethod.csproj", "{7B6FF907-B88B-4908-9A40-4E8E2BF60F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Padroes.De.Projeto.Composite", "Src\Com.Padroes.De.Projeto.Composite\Com.Padroes.De.Projeto.Composite.csproj", "{E92CE05F-47DF-40AB-8608-BDF595780D8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{7B6FF907-B88B-4908-9A40-4E8E2BF60F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6FF907-B88B-4908-9A40-4E8E2BF60F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6FF907-B88B-4908-9A40-4E8E2BF60F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92CE05F-47DF-40AB-8608-BDF595780D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92CE05F-47DF-40AB-8608-BDF595780D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92CE05F-47DF-40AB-8608-BDF595780D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92CE05F-47DF-40AB-8608-BDF595780D8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
