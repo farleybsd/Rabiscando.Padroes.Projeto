@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Abst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.ChainofResponsibility", "Src\Com.Padroes.De.Projeto.ChainofResponsibility\Com.Padroes.De.Projeto.ChainofResponsibility.csproj", "{78975300-9DF0-4124-B2DF-CC798A43B9A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Padroes.De.Projeto.Builder", "Src\Com.Padroes.De.Projeto.Builder\Com.Padroes.De.Projeto.Builder.csproj", "{623F1D1C-9592-42E4-93C2-E02B62B448C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Builder", "Src\Com.Padroes.De.Projeto.Builder\Com.Padroes.De.Projeto.Builder.csproj", "{623F1D1C-9592-42E4-93C2-E02B62B448C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Padroes.De.Projeto.ChainofResponsibility.VersaoDois", "Src\Com.Padroes.De.Projeto.ChainofResponsibility.VersaoDois\Com.Padroes.De.Projeto.ChainofResponsibility.VersaoDois.csproj", "{3A02E445-C30D-4448-ADE1-6A0921A31A85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{623F1D1C-9592-42E4-93C2-E02B62B448C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{623F1D1C-9592-42E4-93C2-E02B62B448C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{623F1D1C-9592-42E4-93C2-E02B62B448C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A02E445-C30D-4448-ADE1-6A0921A31A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A02E445-C30D-4448-ADE1-6A0921A31A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A02E445-C30D-4448-ADE1-6A0921A31A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A02E445-C30D-4448-ADE1-6A0921A31A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
