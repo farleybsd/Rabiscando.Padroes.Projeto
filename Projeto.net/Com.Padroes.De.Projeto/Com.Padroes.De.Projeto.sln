@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Chai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Padroes.De.Projeto.Iterator", "Src\Com.Padroes.De.Projeto.Iterator\Com.Padroes.De.Projeto.Iterator.csproj", "{5903D962-12A9-48A0-AD4C-7AD2883BD22D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPatherner", "Src\CommandPatherner\CommandPatherner.csproj", "{359994DD-9E07-4A8F-A046-4922461EBB0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPatherner", "Src\CommandPatherner\CommandPatherner.csproj", "{359994DD-9E07-4A8F-A046-4922461EBB0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Padroes.De.Projeto.Bridge", "Src\Com.Padroes.De.Projeto.Bridge\Com.Padroes.De.Projeto.Bridge.csproj", "{05C68ED9-B1B2-4426-BE0F-97DCAAFE3441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{359994DD-9E07-4A8F-A046-4922461EBB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{359994DD-9E07-4A8F-A046-4922461EBB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{359994DD-9E07-4A8F-A046-4922461EBB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C68ED9-B1B2-4426-BE0F-97DCAAFE3441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C68ED9-B1B2-4426-BE0F-97DCAAFE3441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C68ED9-B1B2-4426-BE0F-97DCAAFE3441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C68ED9-B1B2-4426-BE0F-97DCAAFE3441}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
